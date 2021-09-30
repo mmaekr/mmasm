@@ -1,0 +1,5 @@
+build/*
+mmasm
+a.out
+arm/insns_*
+test/*

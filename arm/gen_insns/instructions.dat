@@ -1,0 +1,1074 @@
+adc <Wd>, <Wn>, <Wm>		s %a.d0 $2 %6.0 $1 $0 
+adc <Xd>, <Xn>, <Xm>		s %a.d0 $2 %6.0 $1 $0 
+adcs <Wd>, <Wn>, <Wm>		s %a.1d0 $2 %6.0 $1 $0 
+adcs <Xd>, <Xn>, <Xm>		s %a.1d0 $2 %6.0 $1 $0 
+add <Wd>, <Wn>, <Wm>, <shift> #<amount>		s %7.b < %1.0 $2 #6 $1 $0
+add <Wd>, <Wn>, <Wm>		s %7.b < %1.0 $2 #6 $1 $0
+add <Xd>, <Xn>, <Xm>, <shift> #<amount>		s %7.b < %1.0 $2 #6 $1 $0
+add <Xd>, <Xn>, <Xm>		s %7.b < %1.0 $2 #6 $1 $0
+add <WSP>, <Wn>, <Wm>, <extend> #<amount>		s %a.59 $2 > #3 $1 $0 
+add <Wd>, <WSP>, <Wm>, <extend> #<amount>		s %a.59 $2 > #3 $1 $0 
+add <WSP>, <WSP>, <Wm>, <extend> #<amount>		s %a.59 $2 > #3 $1 $0 
+add <Wd>, <Wn>, <Wm>, <extend> #<amount>		s %a.59 $2 > #3 $1 $0 
+add <WSP>, <Wn>, <Wm>		s %a.59 $2 > #3 $1 $0 
+add <Wd>, <WSP>, <Wm>		s %a.59 $2 > #3 $1 $0 
+add <WSP>, <WSP>, <Wm>		s %a.59 $2 > #3 $1 $0 
+add <Wd>, <Wn>, <Wm>		s %a.59 $2 > #3 $1 $0 
+add <SP>, <Xn>, <Rm>, <extend> #<amount>		s %a.59 $2 > #3 $1 $0 
+add <Xd>, <SP>, <Rm>, <extend> #<amount>		s %a.59 $2 > #3 $1 $0 
+add <SP>, <SP>, <Rm>, <extend> #<amount>		s %a.59 $2 > #3 $1 $0 
+add <Xd>, <Xn>, <Rm>, <extend> #<amount>		s %a.59 $2 > #3 $1 $0 
+add <SP>, <Xn>, <Rm>		s %a.59 $2 %3.3 #3 $1 $0 
+add <Xd>, <SP>, <Rm>		s %a.59 $2 %3.3 #3 $1 $0 
+add <SP>, <SP>, <Rm>		s %a.59 $2 %3.3 #3 $1 $0 
+add <Xd>, <Xn>, <Rm>		s %a.59 $2 %3.3 #3 $1 $0 
+add <WSP>, <Wn>, #<imm>, <shift>		s %8.22 %1.0 #12 $1 $0
+add <Wd>, <WSP>, #<imm>, <shift>		s %8.22 %1.0 #12 $1 $0
+add <WSP>, <WSP>, #<imm>, <shift>		s %8.22 %1.0 #12 $1 $0
+add <Wd>, <Wn>, #<imm>, <shift>		s %8.22 %1.0 #12 $1 $0
+add <WSP>, <Wn>, #<imm>		s %8.22 %1.0 #12 $1 $0
+add <Wd>, <WSP>, #<imm>		s %8.22 %1.0 #12 $1 $0
+add <WSP>, <WSP>, #<imm>		s %8.22 %1.0 #12 $1 $0
+add <Wd>, <Wn>, #<imm>		s %8.22 %1.0 #12 $1 $0
+add <SP>, <Xn>, #<imm>, <shift>		s %8.22 %1.0 #12 $1 $0
+add <Xd>, <SP>, #<imm>, <shift>		s %8.22 %1.0 #12 $1 $0
+add <SP>, <SP>, #<imm>, <shift>		s %8.22 %1.0 #12 $1 $0
+add <Xd>, <Xn>, #<imm>, <shift>		s %8.22 %1.0 #12 $1 $0
+add <SP>, <Xn>, #<imm>		s %8.22 %1.0 #12 $1 $0
+add <Xd>, <SP>, #<imm>		s %8.22 %1.0 #12 $1 $0
+add <SP>, <SP>, #<imm>		s %8.22 %1.0 #12 $1 $0
+add <Xd>, <Xn>, #<imm>		s %8.22 %1.0 #12 $1 $0
+addg <Xd|SP>, <Xn|SP>, #<uimm6>, #<uimm4>		
+adds <Wd>, <Wn|WSP>, <Wm>, <extend> #<amount>		s %a.159 $2 > #3 $1 $0 
+adds <Wd>, <Wn|WSP>, <Wm>		s %a.159 $2 > #3 $1 $0 
+adds <Xd>, <Xn|SP>, <R><m>, <extend> #<amount>		s %a.159 $2 > #3 $1 $0 
+adds <Xd>, <Xn|SP>, <R><m>		s %a.159 $2 > #3 $1 $0 
+adds <Wd>, <Wn|WSP>, #<imm>, <shift>		s %8.62 %1.0 #12 $1 $0
+adds <Wd>, <Wn|WSP>, #<imm>		s %8.62 %1.0 #12 $1 $0
+adds <Xd>, <Xn|SP>, #<imm>, <shift>		s %8.62 %1.0 #12 $1 $0
+adds <Xd>, <Xn|SP>, #<imm>		s %8.62 %1.0 #12 $1 $0
+adds <Wd>, <Wn>, <Wm>, <shift> #<amount>		s %7.2b < %1.0 $2 #6 $1 $0
+adds <Wd>, <Wn>, <Wm>		s %7.2b < %1.0 $2 #6 $1 $0
+adds <Xd>, <Xn>, <Xm>, <shift> #<amount>		s %7.2b < %1.0 $2 #6 $1 $0
+adds <Xd>, <Xn>, <Xm>		s %7.2b < %1.0 $2 #6 $1 $0
+adr <Xd>, <label>		
+adrp <Xd>, <label>		%1.1 %2.0 %5.10 #19 $0
+adrp <Xd>, #<imm>		%1.1 %2.0 %5.10 #19 $0
+and <WSP>, <Wn>, #<imm>		s %8.24 s #6 #6 $1 $0 
+and <Wd>, <Wn>, #<imm>		s %8.24 s #6 #6 $1 $0 
+and <SP>, <Xn>, #<imm>		s %8.24 s #6 #6 $1 $0 
+and <Xd>, <Xn>, #<imm>		s %8.24 s #6 #6 $1 $0 
+and <Wd>, <Wn>, <Wm>, <shift> #<amount>		s %7.a < %1.0 $2 #6 $1 $0
+and <Wd>, <Wn>, <Wm>		s %7.a < %1.0 $2 #6 $1 $0
+and <Xd>, <Xn>, <Xm>, <shift> #<amount>		s %7.a < %1.0 $2 #6 $1 $0
+and <Xd>, <Xn>, <Xm>		s %7.a < %1.0 $2 #6 $1 $0
+ands <Wd>, <Wn>, #<imm>		s %8.e4 s #6 #6 $1 $0 
+ands <Xd>, <Xn>, #<imm>		s %8.e4 s #6 #6 $1 $0 
+ands <Wd>, <Wn>, <Wm>, <shift> #<amount>		s %7.6a < %1.0 $2 #6 $1 $0
+ands <Wd>, <Wn>, <Wm>		s %7.6a < %1.0 $2 #6 $1 $0
+ands <Xd>, <Xn>, <Xm>, <shift> #<amount>		s %7.6a < %1.0 $2 #6 $1 $0
+ands <Xd>, <Xn>, <Xm>		s %7.6a < %1.0 $2 #6 $1 $0
+asr <Wd>, <Wn>, <Wm>		s %a.d6 $2 %6.a $1 $0 
+asr <Xd>, <Xn>, <Xm>		s %a.d6 $2 %6.a $1 $0 
+asr <Wd>, <Wn>, #<shift>		s %a.d6 $2 %6.a $1 $0 
+asr <Xd>, <Xn>, #<shift>		s %a.d6 $2 %6.a $1 $0 
+asrv <Wd>, <Wn>, <Wm>		s %a.d6 $2 %6.a $1 $0 
+asrv <Xd>, <Xn>, <Xm>		s %a.d6 $2 %6.a $1 $0 
+autda <Xd>, <SP>		
+autda <Xd>, <Xn>		
+autdza <Xd>
+autdb <Xd>, <SP>		
+autdb <Xd>, <Xn>		
+autdzb <Xd>
+autia <Xd>, <SP>		
+autia <Xd>, <Xn>		
+autiza <Xd>
+autib <Xd>, <SP>		
+autib <Xd>, <Xn>		
+autizb <Xd>
+axflag		%20.d500405f 
+b <label>		%6.5 #26
+b #<imm>		%6.5 #26
+bfc <Wd>, #<lsb>, #<width>		s %8.66 s #6 #6 %5.1f $0 
+bfc <Xd>, #<lsb>, #<width>		s %8.66 s #6 #6 %5.1f $0 
+bfi <Wd>, <Wn>, #<lsb>, #<width>		
+bfi <Xd>, <Xn>, #<lsb>, #<width>		
+bfm <Wd>, <Wn>, #<immr>, #<imms>		s %8.66 s #6 #6 $1 $0 
+bfm <Xd>, <Xn>, #<immr>, #<imms>		s %8.66 s #6 #6 $1 $0 
+bfxil <Wd>, <Wn>, #<lsb>, #<width>		s %8.66 s #6 #6 $1 $0 
+bfxil <Xd>, <Xn>, #<lsb>, #<width>		s %8.66 s #6 #6 $1 $0 
+bic <Wd>, <Wn>, <Wm>, <shift> #<amount>		s %7.a < %1.1 $2 #6 $1 $0 
+bic <Wd>, <Wn>, <Wm>		s %7.a < %1.1 $2 #6 $1 $0 
+bic <Xd>, <Xn>, <Xm>, <shift> #<amount>		s %7.a < %1.1 $2 #6 $1 $0 
+bic <Xd>, <Xn>, <Xm>		s %7.a < %1.1 $2 #6 $1 $0 
+bics <Wd>, <Wn>, <Wm>, <shift> #<amount>		s %7.6a < %1.1 $2 #6 $1 $0 
+bics <Wd>, <Wn>, <Wm>		s %7.6a < %1.1 $2 #6 $1 $0 
+bics <Xd>, <Xn>, <Xm>, <shift> #<amount>		s %7.6a < %1.1 $2 #6 $1 $0 
+bics <Xd>, <Xn>, <Xm>		s %7.6a < %1.1 $2 #6 $1 $0 
+bl <label>		%6.25 #26 
+blr <Xn>		%16.358fc0 $0 %5.0 
+blraaz <Xn>
+blraa <Xn>, <SP>		
+blraa <Xn>, <Xm>		
+blrabz <Xn>
+blrab <Xn>, <SP>
+blrab <Xn>, <Xm>
+br <Xn>		%16.3587c0 $0 %5.0 
+braaz <Xn>
+braa <Xn>, <SP>		
+braa <Xn>, <Xm>		
+brabz <Xn>
+brab <Xn>, <SP>
+brab <Xn>, <Xm>
+brk #<imm>		%b.6a1 #16 %5.0 
+casab <Ws>, <Wt>, [<Xn|SP>,#0]
+casab <Ws>, <Wt>, [<Xn|SP>]
+casalb <Ws>, <Wt>, [<Xn|SP>,#0]
+casalb <Ws>, <Wt>, [<Xn|SP>]
+casb <Ws>, <Wt>, [<Xn|SP>,#0]		
+casb <Ws>, <Wt>, [<Xn|SP>]		
+caslb <Ws>, <Wt>, [<Xn|SP>,#0]
+caslb <Ws>, <Wt>, [<Xn|SP>]
+casah <Ws>, <Wt>, [<Xn|SP>,#0]
+casah <Ws>, <Wt>, [<Xn|SP>]
+casalh <Ws>, <Wt>, [<Xn|SP>,#0]
+casalh <Ws>, <Wt>, [<Xn|SP>]
+cash <Ws>, <Wt>, [<Xn|SP>,#0]		
+cash <Ws>, <Wt>, [<Xn|SP>]		
+caslh <Ws>, <Wt>, [<Xn|SP>,#0]
+caslh <Ws>, <Wt>, [<Xn|SP>]
+casp <Ws>, <W(s+1)>, <Wt>, <W(t+1)>, [<Xn|SP>,#0]		
+casp <Ws>, <W(s+1)>, <Wt>, <W(t+1)>, [<Xn|SP>]		
+caspa <Ws>, <W(s+1)>, <Wt>, <W(t+1)>, [<Xn|SP>,#0]
+caspa <Ws>, <W(s+1)>, <Wt>, <W(t+1)>, [<Xn|SP>]
+caspal <Ws>, <W(s+1)>, <Wt>, <W(t+1)>, [<Xn|SP>,#0]
+caspal <Ws>, <W(s+1)>, <Wt>, <W(t+1)>, [<Xn|SP>]
+caspl <Ws>, <W(s+1)>, <Wt>, <W(t+1)>, [<Xn|SP>,#0]
+caspl <Ws>, <W(s+1)>, <Wt>, <W(t+1)>, [<Xn|SP>]
+casp <Xs>, <X(s+1)>, <Xt>, <X(t+1)>, [<Xn|SP>,#0]		
+casp <Xs>, <X(s+1)>, <Xt>, <X(t+1)>, [<Xn|SP>]		
+caspa <Xs>, <X(s+1)>, <Xt>, <X(t+1)>, [<Xn|SP>,#0]
+caspa <Xs>, <X(s+1)>, <Xt>, <X(t+1)>, [<Xn|SP>]
+caspal <Xs>, <X(s+1)>, <Xt>, <X(t+1)>, [<Xn|SP>,#0]
+caspal <Xs>, <X(s+1)>, <Xt>, <X(t+1)>, [<Xn|SP>]
+caspl <Xs>, <X(s+1)>, <Xt>, <X(t+1)>, [<Xn|SP>,#0]
+caspl <Xs>, <X(s+1)>, <Xt>, <X(t+1)>, [<Xn|SP>]
+cas <Ws>, <Wt>, [<Xn|SP>,#0]		
+cas <Ws>, <Wt>, [<Xn|SP>]		
+casa <Ws>, <Wt>, [<Xn|SP>,#0]
+casa <Ws>, <Wt>, [<Xn|SP>]
+casal <Ws>, <Wt>, [<Xn|SP>,#0]
+casal <Ws>, <Wt>, [<Xn|SP>]
+casl <Ws>, <Wt>, [<Xn|SP>,#0]
+casl <Ws>, <Wt>, [<Xn|SP>]
+cas <Xs>, <Xt>, [<Xn|SP>,#0]		
+cas <Xs>, <Xt>, [<Xn|SP>]		
+casal <Xs>, <Xt>, [<Xn|SP>,#0]
+casal <Xs>, <Xt>, [<Xn|SP>]
+casl <Xs>, <Xt>, [<Xn|SP>,#0]
+casl <Xs>, <Xt>, [<Xn|SP>]
+cbnz <Wt>, <label>		s %7.35 #19 $0 
+cbnz <Wt>, #<imm>		s %7.35 #19 $0 
+cbnz <Xt>, <label>		s %7.35 #19 $0 
+cbnz <Xt>, #<imm>		s %7.35 #19 $0 
+cbz <Wt>, <label>		s %7.34 #19 $0 
+cbz <Wt>, #<imm>		s %7.34 #19 $0 
+cbz <Xt>, <label>		s %7.34 #19 $0 
+cbz <Xt>, #<imm>		s %7.34 #19 $0 
+ccmn <Wn>, #<imm>, #<nzcv>, <cond>		
+ccmn <Xn>, #<imm>, #<nzcv>, <cond>		
+ccmn <Wn>, <Wm>, #<nzcv>, <cond>		
+ccmn <Xn>, <Xm>, #<nzcv>, <cond>		
+ccmp <Wn>, #<imm>, #<nzcv>, <cond>		
+ccmp <Xn>, #<imm>, #<nzcv>, <cond>		
+ccmp <Wn>, <Wm>, #<nzcv>, <cond>		
+ccmp <Xn>, <Xm>, #<nzcv>, <cond>		
+cfinv		%20.d500401f 
+cinc <Wd>, <Wn>, <cond>
+cinc <Xd>, <Xn>, <cond>
+cinv <Wd>, <Wn>, <cond>
+cinv <Xd>, <Xn>, <cond>
+clrex #<imm>		
+clrex		
+cls <Wd>, <Wn>		s %15.16b005 $1 $0 
+cls <Xd>, <Xn>		s %15.16b005 $1 $0 
+clz <Wd>, <Wn>		s %15.16b004 $1 $0 
+clz <Xd>, <Xn>		s %15.16b004 $1 $0 
+cmn <WSP>, <Wm>, <extend> #<amount>		s %a.159 $1 > #3 $0 %5.1f 
+cmn <Wn>, <Wm>, <extend> #<amount>		s %a.159 $1 > #3 $0 %5.1f 
+cmn <WSP>, <Wm>		s %a.159 $1 > #3 $0 %5.1f 
+cmn <Wn>, <Wm>		s %a.159 $1 > #3 $0 %5.1f 
+cmn <SP>, <Rm>, <extend> #<amount>		s %a.159 $1 > #3 $0 %5.1f 
+cmn <Xn>, <Rm>, <extend> #<amount>		s %a.159 $1 > #3 $0 %5.1f 
+cmn <SP>, <Rm>		s %a.159 $1 > #3 $0 %5.1f 
+cmn <Xn>, <Rm>		s %a.159 $1 > #3 $0 %5.1f 
+cmn <WSP>, #<imm>, <shift>		s %8.62 %1.0 #12 $0 %5.1f
+cmn <Wn>, #<imm>, <shift>		s %8.62 %1.0 #12 $0 %5.1f
+cmn <WSP>, #<imm>		s %8.62 %1.0 #12 $0 %5.1f
+cmn <Wn>, #<imm>		s %8.62 %1.0 #12 $0 %5.1f
+cmn <SP>, #<imm>, <shift>		s %8.62 %1.0 #12 $0 %5.1f
+cmn <Xn>, #<imm>, <shift>		s %8.62 %1.0 #12 $0 %5.1f
+cmn <SP>, #<imm>		s %8.62 %1.0 #12 $0 %5.1f
+cmn <Xn>, #<imm>		s %8.62 %1.0 #12 $0 %5.1f
+cmn <Wn>, <Wm>, <shift> #<amount>		s %7.2b < %1.0 $1 #6 $0 %5.1f
+cmn <Wn>, <Wm>		s %7.2b < %1.0 $1 #6 $0 %5.1f
+cmn <Xn>, <Xm>, <shift> #<amount>		s %7.2b < %1.0 $1 #6 $0 %5.1f
+cmn <Xn>, <Xm>		s %7.2b < %1.0 $1 #6 $0 %5.1f
+cmp <WSP>, <Wm>, <extend> #<amount>		s %a.359 $1 > #3 $0 %5.1f 
+cmp <Wn>, <Wm>, <extend> #<amount>		s %a.359 $1 > #3 $0 %5.1f 
+cmp <WSP>, <Wm>		s %a.359 $1 > #3 $0 %5.1f 
+cmp <Wn>, <Wm>		s %a.359 $1 > #3 $0 %5.1f 
+cmp <SP>, <R><m>, <extend> #<amount>		s %a.359 $1 > #3 $0 %5.1f 
+cmp <Xn>, <R><m>, <extend> #<amount>		s %a.359 $1 > #3 $0 %5.1f 
+cmp <SP>, <R><m>		s %a.359 $1 > #3 $0 %5.1f 
+cmp <Xn>, <R><m>		s %a.359 $1 > #3 $0 %5.1f 
+cmp <WSP>, #<imm>, <shift>		s %8.e2 %1.0 #12 $0 %5.1f
+cmp <Wn>, #<imm>, <shift>		s %8.e2 %1.0 #12 $0 %5.1f
+cmp <WSP>, #<imm>		s %8.e2 %1.0 #12 $0 %5.1f
+cmp <Wn>, #<imm>		s %8.e2 %1.0 #12 $0 %5.1f
+cmp <SP>, #<imm>, <shift>		s %8.e2 %1.0 #12 $0 %5.1f
+cmp <Xn>, #<imm>, <shift>		s %8.e2 %1.0 #12 $0 %5.1f
+cmp <SP>, #<imm>		s %8.e2 %1.0 #12 $0 %5.1f
+cmp <Xn>, #<imm>		s %8.e2 %1.0 #12 $0 %5.1f
+cmp <Wn>, <Wm>, <shift> #<amount>		s %7.6b < %1.0 $1 #6 $0 %5.1f
+cmp <Wn>, <Wm>		s %7.6b < %1.0 $1 #6 $0 %5.1f
+cmp <Xn>, <Xm>, <shift> #<amount>		s %7.6b < %1.0 $1 #6 $0 %5.1f
+cmp <Xn>, <Xm>		s %7.6b < %1.0 $1 #6 $0 %5.1f
+cneg <Wd>, <Wn>, <cond>		
+cneg <Xd>, <Xn>, <cond>		
+crc32b <Wd>, <Wn>, <Wm>		
+crc32h <Wd>, <Wn>, <Wm>
+crc32w <Wd>, <Wn>, <Wm>
+crc32x <Wd>, <Wn>, <Xm>
+crc32cb <Wd>, <Wn>, <Wm>		
+crc32ch <Wd>, <Wn>, <Wm>
+crc32cw <Wd>, <Wn>, <Wm>
+crc32cx <Wd>, <Wn>, <Xm>
+csdb		%20.d503229f 
+csel <Wd>, <Wn>, <Wm>, <cond>		
+csel <Xd>, <Xn>, <Xm>, <cond>		
+cset <Wd>, <cond>
+cset <Xd>, <cond>
+csetm <Wd>, <cond>
+csetm <Xd>, <cond>
+csinc <Wd>, <Wn>, <Wm>, <cond>		
+csinc <Xd>, <Xn>, <Xm>, <cond>		
+csinv <Wd>, <Wn>, <Wm>, <cond>		
+csinv <Xd>, <Xn>, <Xm>, <cond>		
+csneg <Wd>, <Wn>, <Wm>, <cond>		
+csneg <Xd>, <Xn>, <Xm>, <cond>		
+dcps1 #<imm>
+dcps1
+dcps2 #<imm>
+dcps2
+dcps3 #<imm>
+dcps3
+dgh		%20.d50320df 
+dmb <option>|#<imm>
+drps		%20.d6bf03e0 
+dsb <option>|#<imm>
+eon <Wd>, <Wn>, <Wm>, <shift> #<amount>		s %7.4a < %1.1 $2 #6 $1 $0 
+eon <Wd>, <Wn>, <Wm>		s %7.4a < %1.1 $2 #6 $1 $0 
+eon <Xd>, <Xn>, <Xm>, <shift> #<amount>		s %7.4a < %1.1 $2 #6 $1 $0 
+eon <Xd>, <Xn>, <Xm>		s %7.4a < %1.1 $2 #6 $1 $0 
+eor <WSP>, <Wn>, #<imm>		s %8.a4 s #6 #6 $1 $0 
+eor <Wd>, <Wn>, #<imm>		s %8.a4 s #6 #6 $1 $0 
+eor <SP>, <Xn>, #<imm>		s %8.a4 s #6 #6 $1 $0 
+eor <Xd>, <Xn>, #<imm>		s %8.a4 s #6 #6 $1 $0 
+eor <Wd>, <Wn>, <Wm>, <shift> #<amount>		s %8.a4 s #6 #6 $1 $0 
+eor <Wd>, <Wn>, <Wm>		s %8.a4 s #6 #6 $1 $0 
+eor <Xd>, <Xn>, <Xm>, <shift> #<amount>		s %8.a4 s #6 #6 $1 $0 
+eor <Xd>, <Xn>, <Xm>		s %8.a4 s #6 #6 $1 $0 
+eret		%20.d69f03e0 
+eretaa		
+eretab
+esb		%20.d503221f 
+extr <Wd>, <Wn>, <Wm>, #<lsb>		s %8.27 s %1.0 $2 #6 $1 $0 
+extr <Xd>, <Xn>, <Xm>, #<lsb>		s %8.27 s %1.0 $2 #6 $1 $0 
+gmi <Xd>, <SP>, <Xm>
+gmi <Xd>, <Xn>, <Xm>
+hint #<imm>		
+hlt #<imm>		%b.6a2 #16 %5.0 
+hvc #<imm>		%b.6a0 #16 %5.2 
+irg <Xd|SP>, <Xn|SP>, <Xm>
+irg <Xd|SP>, <Xn|SP>
+isb {<option>|#<imm>}		
+isb		
+ldaddab <Ws>, <Wt>, [<Xn|SP>]
+ldaddalb <Ws>, <Wt>, [<Xn|SP>]
+ldaddb <Ws>, <Wt>, [<Xn|SP>]		
+ldaddlb <Ws>, <Wt>, [<Xn|SP>]
+ldaddah <Ws>, <Wt>, [<Xn|SP>]
+ldaddalh <Ws>, <Wt>, [<Xn|SP>]
+ldaddh <Ws>, <Wt>, [<Xn|SP>]		
+ldaddlh <Ws>, <Wt>, [<Xn|SP>]
+ldadd <Ws>, <Wt>, [<Xn|SP>]		
+ldadda <Ws>, <Wt>, [<Xn|SP>]
+ldaddal <Ws>, <Wt>, [<Xn|SP>]
+ldaddl <Ws>, <Wt>, [<Xn|SP>]
+ldadd <Xs>, <Xt>, [<Xn|SP>]		
+ldadda <Xs>, <Xt>, [<Xn|SP>]
+ldaddal <Xs>, <Xt>, [<Xn|SP>]
+ldaddl <Xs>, <Xt>, [<Xn|SP>]
+ldapr <Wt>, [<SP> ,#0]		%14.e2ff0 $1 $0 
+ldapr <Wt>, [<Xn> ,#0]		%14.e2ff0 $1 $0 
+ldapr <Wt>, [<SP> ]		%14.e2ff0 $1 $0 
+ldapr <Wt>, [<Xn> ]		%14.e2ff0 $1 $0 
+ldapr <Xt>, [<SP> ,#0]		%14.e2ff0 $1 $0 
+ldapr <Xt>, [<Xn> ,#0]		%14.e2ff0 $1 $0 
+ldapr <Xt>, [<SP> ]		%14.e2ff0 $1 $0 
+ldapr <Xt>, [<Xn> ]		%14.e2ff0 $1 $0 
+ldapur <Wt>, [<SP>, #<simm>]		%9.ca #9 %2.0 $1 $0 
+ldapur <Wt>, [<Xn>, #<simm>]		%9.ca #9 %2.0 $1 $0 
+ldapur <Wt>, [<SP>]		%9.ca #9 %2.0 $1 $0 
+ldapur <Wt>, [<Xn>]		%9.ca #9 %2.0 $1 $0 
+ldapur <Xt>, [<SP>, #<simm>]		%9.ca #9 %2.0 $1 $0 
+ldapur <Xt>, [<Xn>, #<simm>]		%9.ca #9 %2.0 $1 $0 
+ldapur <Xt>, [<SP>]		%9.ca #9 %2.0 $1 $0 
+ldapur <Xt>, [<Xn>]		%9.ca #9 %2.0 $1 $0 
+ldapursb <Wt>, [<SP>, #<simm>]		
+ldapursb <Wt>, [<Xn>, #<simm>]		
+ldapursb <Wt>, [<SP>]		
+ldapursb <Wt>, [<Xn>]		
+ldapursb <Xt>, [<SP>, #<simm>]		
+ldapursb <Xt>, [<Xn>, #<simm>]		
+ldapursb <Xt>, [<SP>]		
+ldapursb <Xt>, [<Xn>]		
+ldapursh <Wt>, [<SP>, #<simm>]		
+ldapursh <Wt>, [<Xn>, #<simm>]		
+ldapursh <Wt>, [<SP>]		
+ldapursh <Wt>, [<Xn>]		
+ldapursh <Xt>, [<SP>, #<simm>]		
+ldapursh <Xt>, [<Xn>, #<simm>]		
+ldapursh <Xt>, [<SP>]		
+ldapursh <Xt>, [<Xn>]		
+ldar <Wt>, [<SP>,#0]		%14.237ff $1 $0 
+ldar <Wt>, [<Xn>,#0]		%14.237ff $1 $0 
+ldar <Wt>, [<SP>]		%14.237ff $1 $0 
+ldar <Wt>, [<Xn>]		%14.237ff $1 $0 
+ldar <Xt>, [<SP>,#0]		%14.237ff $1 $0 
+ldar <Xt>, [<Xn>,#0]		%14.237ff $1 $0 
+ldar <Xt>, [<SP>]		%14.237ff $1 $0 
+ldar <Xt>, [<Xn>]		%14.237ff $1 $0 
+ldaxp <Wt1>, <Wt2>, [<SP>,#0]
+ldaxp <Wt1>, <Wt2>, [<Xn>,#0]
+ldaxp <Wt1>, <Wt2>, [<SP>]
+ldaxp <Wt1>, <Wt2>, [<Xn>]
+ldaxp <Xt1>, <Xt2>, [<SP>,#0]
+ldaxp <Xt1>, <Xt2>, [<Xn>,#0]
+ldaxp <Xt1>, <Xt2>, [<SP>]
+ldaxp <Xt1>, <Xt2>, [<Xn>]
+ldaxr <Wt>, [<SP>,#0]		%14.217ff $1 $0 
+ldaxr <Wt>, [<Xn>,#0]		%14.217ff $1 $0 
+ldaxr <Wt>, [<SP>]		%14.217ff $1 $0 
+ldaxr <Wt>, [<Xn>]		%14.217ff $1 $0 
+ldaxr <Xt>, [<SP>,#0]		%14.217ff $1 $0 
+ldaxr <Xt>, [<Xn>,#0]		%14.217ff $1 $0 
+ldaxr <Xt>, [<SP>]		%14.217ff $1 $0 
+ldaxr <Xt>, [<Xn>]		%14.217ff $1 $0 
+ldclrab <Ws>, <Wt>, [<Xn|SP>]
+ldclralb <Ws>, <Wt>, [<Xn|SP>]
+ldclrb <Ws>, <Wt>, [<Xn|SP>]		
+ldclrlb <Ws>, <Wt>, [<Xn|SP>]
+ldclrah <Ws>, <Wt>, [<Xn|SP>]
+ldclralh <Ws>, <Wt>, [<Xn|SP>]
+ldclrh <Ws>, <Wt>, [<Xn|SP>]		
+ldclrlh <Ws>, <Wt>, [<Xn|SP>]
+ldclr <Ws>, <Wt>, [<Xn|SP>]		
+ldclra <Ws>, <Wt>, [<Xn|SP>]
+ldclral <Ws>, <Wt>, [<Xn|SP>]
+ldclrl <Ws>, <Wt>, [<Xn|SP>]
+ldclr <Xs>, <Xt>, [<Xn|SP>]		
+ldclra <Xs>, <Xt>, [<Xn|SP>]
+ldclral <Xs>, <Xt>, [<Xn|SP>]
+ldclrl <Xs>, <Xt>, [<Xn|SP>]
+ldeorab <Ws>, <Wt>, [<Xn|SP>]
+ldeoralb <Ws>, <Wt>, [<Xn|SP>]
+ldeorb <Ws>, <Wt>, [<Xn|SP>]		
+ldeorlb <Ws>, <Wt>, [<Xn|SP>]
+ldeorah <Ws>, <Wt>, [<Xn|SP>]
+ldeoralh <Ws>, <Wt>, [<Xn|SP>]
+ldeorh <Ws>, <Wt>, [<Xn|SP>]		
+ldeorlh <Ws>, <Wt>, [<Xn|SP>]
+ldeor <Ws>, <Wt>, [<Xn|SP>]		
+ldeora <Ws>, <Wt>, [<Xn|SP>]
+ldeoral <Ws>, <Wt>, [<Xn|SP>]
+ldeorl <Ws>, <Wt>, [<Xn|SP>]
+ldeor <Xs>, <Xt>, [<Xn|SP>]		
+ldeora <Xs>, <Xt>, [<Xn|SP>]
+ldeoral <Xs>, <Xt>, [<Xn|SP>]
+ldeorl <Xs>, <Xt>, [<Xn|SP>]
+ldg <Xt>, [<SP>, #<simm>]
+ldg <Xt>, [<Xn>, #<simm>]
+ldg <Xt>, [<SP>]
+ldg <Xt>, [<Xn>]
+ldgm <Xt>, [<SP>]
+ldgm <Xt>, [<Xn>]
+ldlar <Wt>, [<SP>,#0]		%14.237df $1 $0 
+ldlar <Wt>, [<Xn>,#0]		%14.237df $1 $0 
+ldlar <Wt>, [<SP>]		%14.237df $1 $0 
+ldlar <Wt>, [<Xn>]		%14.237df $1 $0 
+ldlar <Xt>, [<SP>,#0]		%14.237df $1 $0 
+ldlar <Xt>, [<Xn>,#0]		%14.237df $1 $0 
+ldlar <Xt>, [<SP>]		%14.237df $1 $0 
+ldlar <Xt>, [<Xn>]		%14.237df $1 $0 
+ldnp <Wt1>, <Wt2>, [<Xn|SP>, #<imm>]
+ldnp <Wt1>, <Wt2>, [<Xn|SP>]
+ldnp <Xt1>, <Xt2>, [<Xn|SP>, #<imm>]
+ldnp <Xt1>, <Xt2>, [<Xn|SP>]
+ldp <Wt1>, <Wt2>, [<SP>], #<imm>		s %9.a3 #7 $1 $2 $0
+ldp <Wt1>, <Wt2>, [<Xn>], #<imm>		s %9.a3 #7 $1 $2 $0
+ldp <Xt1>, <Xt2>, [<SP>], #<imm>		s %9.a3 #7 $1 $2 $0
+ldp <Xt1>, <Xt2>, [<Xn>], #<imm>		s %9.a3 #7 $1 $2 $0
+ldp <Wt1>, <Wt2>, [<SP>, #<imm>]!		s %9.a7 #7 $1 $2 $0
+ldp <Wt1>, <Wt2>, [<Xn>, #<imm>]!		s %9.a7 #7 $1 $2 $0
+ldp <Xt1>, <Xt2>, [<SP>, #<imm>]!		s %9.a7 #7 $1 $2 $0
+ldp <Xt1>, <Xt2>, [<Xn>, #<imm>]!		s %9.a7 #7 $1 $2 $0
+ldp <Wt1>, <Wt2>, [<SP>, #<imm>]		s %9.a5 #7 $1 $2 $0
+ldp <Wt1>, <Wt2>, [<Xn>, #<imm>]		s %9.a5 #7 $1 $2 $0
+ldp <Wt1>, <Wt2>, [<SP>]		s %9.a5 #7 $1 $2 $0
+ldp <Wt1>, <Wt2>, [<Xn>]		s %9.a5 #7 $1 $2 $0
+ldp <Xt1>, <Xt2>, [<SP>, #<imm>]		s %9.a5 #7 $1 $2 $0
+ldp <Xt1>, <Xt2>, [<Xn>, #<imm>]		s %9.a5 #7 $1 $2 $0
+ldp <Xt1>, <Xt2>, [<SP>]		s %9.a5 #7 $1 $2 $0
+ldp <Xt1>, <Xt2>, [<Xn>]		s %9.a5 #7 $1 $2 $0
+ldr <Wt>, [<SP>], #<simm>		%b.5c2 #9 %2.1 $1 $0
+ldr <Wt>, [<Xn>], #<simm>		%b.5c2 #9 %2.1 $1 $0
+ldr <Xt>, [<SP>], #<simm>		%b.7c2 #9 %2.1 $1 $0
+ldr <Xt>, [<Xn>], #<simm>		%b.7c2 #9 %2.1 $1 $0
+ldr <Wt>, [<SP>, #<simm>]!		%b.5c2 #9 %2.3 $1 $0 
+ldr <Wt>, [<Xn>, #<simm>]!		%b.5c2 #9 %2.3 $1 $0 
+ldr <Xt>, [<SP>, #<simm>]!		%b.7c2 #9 %2.3 $1 $0 
+ldr <Xt>, [<Xn>, #<simm>]!		%b.7c2 #9 %2.3 $1 $0 
+ldr <Wt>, [<SP>, #<pimm>]		%6.18 #19 $0 
+ldr <Wt>, [<Xn>, #<pimm>]		%6.18 #19 $0 
+ldr <Wt>, [<SP>]		%1.1 s %8.e5 #12 $1 $0 
+ldr <Wt>, [<Xn>]		%1.1 s %8.e5 #12 $1 $0
+ldr <Xt>, [<SP>, #<pimm>]		%1.1 s %8.e5 #12 $1 $0
+ldr <Xt>, [<Xn>, #<pimm>]		%1.1 s %8.e5 #12 $1 $0
+ldr <Xt>, [<SP>]		%1.1 s %8.e5 #12 $1 $0
+ldr <Xt>, [<Xn>]		%1.1 s %8.e5 #12 $1 $0
+ldr <Wt>, <label>		%8.18 #19 $0 
+ldr <Xt>, <label>		%8.58 #19 $0 
+ldr <Wt>, [<Xn|SP>, (<Wm>|<Xm>), <extend> <amount>]		%6.18 #19 $0 
+ldr <Wt>, [<Xn|SP>, (<Wm>|<Xm>)]		%6.18 #19 $0 
+ldr <Xt>, [<Xn|SP>, (<Wm>|<Xm>), <extend> <amount>]		%6.18 #19 $0 
+ldr <Xt>, [<Xn|SP>, (<Wm>|<Xm>)]		%6.18 #19 $0 
+ldraa <Xt>, [<Xn|SP>, #<simm>]		
+ldraa <Xt>, [<Xn|SP>]		
+ldraa <Xt>, [<Xn|SP>, #<simm>]!		
+ldraa <Xt>, [<Xn|SP>]		
+ldrab <Xt>, [<Xn|SP>, #<simm>]
+ldrab <Xt>, [<Xn|SP>]
+ldrab <Xt>, [<Xn|SP>, #<simm>]!
+ldrab <Xt>, [<Xn|SP>]
+ldrb <Wt>, [<Xn|SP>, (<Wm>|<Xm>), <extend> <amount>]
+ldrb <Wt>, [<Xn|SP>, (<Wm>|<Xm>), <extend> ]
+ldrb <Wt>, [<Xn|SP>, <Xm>, LSL <amount>]
+ldrb <Wt>, [<Xn|SP>, <Xm>]
+ldrsb <Wt>, [<Xn|SP>], #<simm>		
+ldrsb <Xt>, [<Xn|SP>], #<simm>		
+ldrsb <Wt>, [<Xn|SP>, #<simm>]!		
+ldrsb <Xt>, [<Xn|SP>, #<simm>]!		
+ldrsb <Wt>, [<Xn|SP>, #<pimm>]		
+ldrsb <Wt>, [<Xn|SP>]		
+ldrsb <Xt>, [<Xn|SP>, #<pimm>]		
+ldrsb <Xt>, [<Xn|SP>]		
+ldrsb <Wt>, [<Xn|SP>, (<Wm>|<Xm>), <extend> <amount>]		
+ldrsb <Wt>, [<Xn|SP>, (<Wm>|<Xm>), <extend> ]		
+ldrsb <Wt>, [<Xn|SP>, <Xm>, LSL <amount>]		
+ldrsb <Wt>, [<Xn|SP>, <Xm>]		
+ldrsb <Xt>, [<Xn|SP>, (<Wm>|<Xm>), <extend> <amount>]		
+ldrsb <Xt>, [<Xn|SP>, (<Wm>|<Xm>), <extend> ]		
+ldrsb <Xt>, [<Xn|SP>, <Xm>, LSL <amount>]		
+ldrsb <Xt>, [<Xn|SP>, <Xm>]		
+ldrsh <Wt>, [<Xn|SP>], #<simm>		
+ldrsh <Xt>, [<Xn|SP>], #<simm>		
+ldrsh <Wt>, [<Xn|SP>, #<simm>]!		
+ldrsh <Xt>, [<Xn|SP>, #<simm>]!		
+ldrsh <Wt>, [<Xn|SP>, #<pimm>]		
+ldrsh <Wt>, [<Xn|SP>]		
+ldrsh <Xt>, [<Xn|SP>, #<pimm>]		
+ldrsh <Xt>, [<Xn|SP>]		
+ldrsh <Wt>, [<Xn|SP>, (<Wm>|<Xm>), <extend> <amount>]		
+ldrsh <Wt>, [<Xn|SP>, (<Wm>|<Xm>)]		
+ldrsh <Xt>, [<Xn|SP>, (<Wm>|<Xm>), <extend> <amount>]		
+ldrsh <Xt>, [<Xn|SP>, (<Wm>|<Xm>)]		
+ldsetab <Ws>, <Wt>, [<Xn|SP>]
+ldsetalb <Ws>, <Wt>, [<Xn|SP>]
+ldsetb <Ws>, <Wt>, [<Xn|SP>]		
+ldsetlb <Ws>, <Wt>, [<Xn|SP>]
+ldsetah <Ws>, <Wt>, [<Xn|SP>]
+ldsetalh <Ws>, <Wt>, [<Xn|SP>]
+ldseth <Ws>, <Wt>, [<Xn|SP>]		
+ldsetlh <Ws>, <Wt>, [<Xn|SP>]
+ldset <Ws>, <Wt>, [<Xn|SP>]		
+ldseta <Ws>, <Wt>, [<Xn|SP>]
+ldsetal <Ws>, <Wt>, [<Xn|SP>]
+ldsetl <Ws>, <Wt>, [<Xn|SP>]
+ldset <Xs>, <Xt>, [<Xn|SP>]		
+ldseta <Xs>, <Xt>, [<Xn|SP>]
+ldsetal <Xs>, <Xt>, [<Xn|SP>]
+ldsetl <Xs>, <Xt>, [<Xn|SP>]
+ldsmaxab <Ws>, <Wt>, [<Xn|SP>]
+ldsmaxalb <Ws>, <Wt>, [<Xn|SP>]
+ldsmaxb <Ws>, <Wt>, [<Xn|SP>]		
+ldsmaxlb <Ws>, <Wt>, [<Xn|SP>]
+ldsmaxah <Ws>, <Wt>, [<Xn|SP>]
+ldsmaxalh <Ws>, <Wt>, [<Xn|SP>]
+ldsmaxh <Ws>, <Wt>, [<Xn|SP>]		
+ldsmaxlh <Ws>, <Wt>, [<Xn|SP>]
+ldsmax <Ws>, <Wt>, [<Xn|SP>]		
+ldsmaxa <Ws>, <Wt>, [<Xn|SP>]
+ldsmaxal <Ws>, <Wt>, [<Xn|SP>]
+ldsmaxl <Ws>, <Wt>, [<Xn|SP>]
+ldsmax <Xs>, <Xt>, [<Xn|SP>]		
+ldsmaxa <Xs>, <Xt>, [<Xn|SP>]
+ldsmaxal <Xs>, <Xt>, [<Xn|SP>]
+ldsmaxl <Xs>, <Xt>, [<Xn|SP>]
+ldsminab <Ws>, <Wt>, [<Xn|SP>]
+ldsminalb <Ws>, <Wt>, [<Xn|SP>]
+ldsminb <Ws>, <Wt>, [<Xn|SP>]		
+ldsminlb <Ws>, <Wt>, [<Xn|SP>]
+ldsminah <Ws>, <Wt>, [<Xn|SP>]
+ldsminalh <Ws>, <Wt>, [<Xn|SP>]
+ldsminh <Ws>, <Wt>, [<Xn|SP>]		
+ldsminlh <Ws>, <Wt>, [<Xn|SP>]
+ldsmin <Ws>, <Wt>, [<Xn|SP>]		
+ldsmina <Ws>, <Wt>, [<Xn|SP>]
+ldsminal <Ws>, <Wt>, [<Xn|SP>]
+ldsminl <Ws>, <Wt>, [<Xn|SP>]
+ldsmin <Xs>, <Xt>, [<Xn|SP>]		
+ldsmina <Xs>, <Xt>, [<Xn|SP>]
+ldsminal <Xs>, <Xt>, [<Xn|SP>]
+ldsminl <Xs>, <Xt>, [<Xn|SP>]
+ldtr <Wt>, [<SP>, #<simm>]		%9.1c2 #9 %2.2 $1 $0 
+ldtr <Wt>, [<Xn>, #<simm>]		%9.1c2 #9 %2.2 $1 $0 
+ldtr <Wt>, [<SP>]		%9.1c2 #9 %2.2 $1 $0 
+ldtr <Wt>, [<Xn>]		%9.1c2 #9 %2.2 $1 $0 
+ldtr <Xt>, [<SP>, #<simm>]		%9.1c2 #9 %2.2 $1 $0 
+ldtr <Xt>, [<Xn>, #<simm>]		%9.1c2 #9 %2.2 $1 $0 
+ldtr <Xt>, [<SP>]		%9.1c2 #9 %2.2 $1 $0 
+ldtr <Xt>, [<Xn>]		%9.1c2 #9 %2.2 $1 $0 
+ldtrsb <Wt>, [<Xn|SP>, #<simm>]		
+ldtrsb <Wt>, [<Xn|SP>]		
+ldtrsb <Xt>, [<Xn|SP>, #<simm>]		
+ldtrsb <Xt>, [<Xn|SP>]		
+ldtrsh <Wt>, [<Xn|SP>, #<simm>]		
+ldtrsh <Wt>, [<Xn|SP>]		
+ldtrsh <Xt>, [<Xn|SP>, #<simm>]		
+ldtrsh <Xt>, [<Xn|SP>]		
+ldumaxab <Ws>, <Wt>, [<Xn|SP>]
+ldumaxalb <Ws>, <Wt>, [<Xn|SP>]
+ldumaxb <Ws>, <Wt>, [<Xn|SP>]		
+ldumaxlb <Ws>, <Wt>, [<Xn|SP>]
+ldumaxah <Ws>, <Wt>, [<Xn|SP>]
+ldumaxalh <Ws>, <Wt>, [<Xn|SP>]
+ldumaxh <Ws>, <Wt>, [<Xn|SP>]		
+ldumaxlh <Ws>, <Wt>, [<Xn|SP>]
+ldumax <Ws>, <Wt>, [<Xn|SP>]		
+ldumaxa <Ws>, <Wt>, [<Xn|SP>]
+ldumaxal <Ws>, <Wt>, [<Xn|SP>]
+ldumaxl <Ws>, <Wt>, [<Xn|SP>]
+ldumax <Xs>, <Xt>, [<Xn|SP>]		
+ldumaxa <Xs>, <Xt>, [<Xn|SP>]
+ldumaxal <Xs>, <Xt>, [<Xn|SP>]
+ldumaxl <Xs>, <Xt>, [<Xn|SP>]
+lduminab <Ws>, <Wt>, [<Xn|SP>]
+lduminalb <Ws>, <Wt>, [<Xn|SP>]
+lduminb <Ws>, <Wt>, [<Xn|SP>]		
+lduminlb <Ws>, <Wt>, [<Xn|SP>]
+lduminah <Ws>, <Wt>, [<Xn|SP>]
+lduminalh <Ws>, <Wt>, [<Xn|SP>]
+lduminh <Ws>, <Wt>, [<Xn|SP>]		
+lduminlh <Ws>, <Wt>, [<Xn|SP>]
+ldumin <Ws>, <Wt>, [<Xn|SP>]		
+ldumina <Ws>, <Wt>, [<Xn|SP>]
+lduminal <Ws>, <Wt>, [<Xn|SP>]
+lduminl <Ws>, <Wt>, [<Xn|SP>]
+ldumin <Xs>, <Xt>, [<Xn|SP>]		
+ldumina <Xs>, <Xt>, [<Xn|SP>]
+lduminal <Xs>, <Xt>, [<Xn|SP>]
+lduminl <Xs>, <Xt>, [<Xn|SP>]
+ldur <Wt>, [<SP>, #<simm>]		%9.1c2 #9 %2.0 $1 $0 
+ldur <Wt>, [<Xn>, #<simm>]		%9.1c2 #9 %2.0 $1 $0 
+ldur <Wt>, [<SP>]		%9.1c2 #9 %2.0 $1 $0 
+ldur <Wt>, [<Xn>]		%9.1c2 #9 %2.0 $1 $0 
+ldur <Xt>, [<SP>, #<simm>]		%9.1c2 #9 %2.0 $1 $0 
+ldur <Xt>, [<Xn>, #<simm>]		%9.1c2 #9 %2.0 $1 $0 
+ldur <Xt>, [<SP>]		%9.1c2 #9 %2.0 $1 $0 
+ldur <Xt>, [<Xn>]		%9.1c2 #9 %2.0 $1 $0 
+ldursb <Wt>, [<Xn|SP>, #<simm>]		
+ldursb <Wt>, [<Xn|SP>]		
+ldursb <Xt>, [<Xn|SP>, #<simm>]		
+ldursb <Xt>, [<Xn|SP>]		
+ldursh <Wt>, [<Xn|SP>, #<simm>]		
+ldursh <Wt>, [<Xn|SP>]		
+ldursh <Xt>, [<Xn|SP>, #<simm>]		
+ldursh <Xt>, [<Xn|SP>]		
+ldxp <Wt1>, <Wt2>, [<Xn|SP>,#0]
+ldxp <Wt1>, <Wt2>, [<Xn|SP>]
+ldxp <Xt1>, <Xt2>, [<Xn|SP>,#0]
+ldxp <Xt1>, <Xt2>, [<Xn|SP>]
+ldxr <Wt>, [<SP>,#0]		%14.217df $1 $0 
+ldxr <Wt>, [<Xn>,#0]		%14.217df $1 $0 
+ldxr <Wt>, [<SP>]		%14.217df $1 $0 
+ldxr <Wt>, [<Xn>]		%14.217df $1 $0 
+ldxr <Xt>, [<SP>,#0]		%14.217df $1 $0 
+ldxr <Xt>, [<Xn>,#0]		%14.217df $1 $0 
+ldxr <Xt>, [<SP>]		%14.217df $1 $0 
+ldxr <Xt>, [<Xn>]		%14.217df $1 $0 
+ldxrb <Wt>, [<SP>,#0]		%16.217df $1 $0 
+ldxrb <Wt>, [<Xn>,#0]		%16.217df $1 $0 
+ldxrb <Wt>, [<SP>]		%16.217df $1 $0 
+ldxrb <Wt>, [<Xn>]		%16.217df $1 $0 
+ldxrh <Wt>, [<SP>,#0]		%16.1217df $1 $0 
+ldxrh <Wt>, [<Xn>,#0]		%16.1217df $1 $0 
+ldxrh <Wt>, [<SP>]		%16.1217df $1 $0 
+ldxrh <Wt>, [<Xn>]		%16.1217df $1 $0 
+lsl <Wd>, <Wn>, <Wm>		s %a.d6 $2 %6.8 $1 $0 
+lsl <Xd>, <Xn>, <Xm>		s %a.d6 $2 %6.8 $1 $0 
+lsl <Wd>, <Wn>, #<shift>		s %a.d6 $2 %6.8 $1 $0 
+lsl <Xd>, <Xn>, #<shift>		s %a.d6 $2 %6.8 $1 $0 
+lslv <Wd>, <Wn>, <Wm>		s %a.d6 $2 %6.8 $1 $0 
+lslv <Xd>, <Xn>, <Xm>		s %a.d6 $2 %6.8 $1 $0 
+lsr <Wd>, <Wn>, <Wm>		s %a.d6 $2 %6.9 $1 $0 
+lsr <Xd>, <Xn>, <Xm>		s %a.d6 $2 %6.9 $1 $0 
+lsr <Wd>, <Wn>, #<shift>		s %a.d6 $2 %6.9 $1 $0 
+lsr <Xd>, <Xn>, #<shift>		s %a.d6 $2 %6.9 $1 $0 
+lsrv <Wd>, <Wn>, <Wm>		s %a.d6 $2 %6.9 $1 $0 
+lsrv <Xd>, <Xn>, <Xm>		s %a.d6 $2 %6.9 $1 $0 
+madd <Wd>, <Wn>, <Wm>, <Wa>
+madd <Xd>, <Xn>, <Xm>, <Xa>
+mneg <Wd>, <Wn>, <Wm>		s %a.d8 $2 %6.3f $1 $0 
+mneg <Xd>, <Xn>, <Xm>		s %a.d8 $2 %6.3f $1 $0 
+mov <Wd>, <Wm>		s %a.150 $1 %b.1f $0
+mov <Xd>, <Xm>		s %a.150 $1 %b.1f $0
+mov <WSP>, <Wn>		s %15.44000 $1 $0 
+mov <Wd>, <WSP>		s %15.44000 $1 $0 
+mov <WSP>, <WSP>		s %15.44000 $1 $0 
+mov <SP>, <Xn>		s %15.44000 $1 $0 
+mov <Xd>, <SP>		s %15.44000 $1 $0 
+mov <SP>, <SP>		s %15.44000 $1 $0 
+mov <Wd>, #<imm>		s %8.a5 %2.0 #16 $0
+mov <Xd>, #<imm>		s %8.a5 %2.0 #16 $0
+mov <Wd>, #<imm>		s %8.25 %2.0 #16 $0
+mov <Xd>, #<imm>		s %8.25 %2.0 #16 $0
+mov <WSP>, #<imm>		s %8.64 s #6 #6 %5.1f $0
+mov <Wd>, #<imm>		s %8.64 s #6 #6 %5.1f $0
+mov <SP>, #<imm>		s %8.64 s #6 #6 %5.1f $0
+mov <Xd>, #<imm>		s %8.64 s #6 #6 %5.1f $0
+movk <Wd>, #<imm>, LSL #<shift>		s %8.e5 %2.0 #16 $0 
+movk <Wd>, #<imm>		s %8.e5 %2.0 #16 $0 
+movk <Xd>, #<imm>, LSL #<shift>		s %8.e5 %2.0 #16 $0 
+movk <Xd>, #<imm>		s %8.e5 %2.0 #16 $0 
+movn <Wd>, #<imm>, LSL #<shift>		s %8.25 %2.0 #16 $0 
+movn <Wd>, #<imm>		s %8.25 %2.0 #16 $0 
+movn <Xd>, #<imm>, LSL #<shift>		s %8.25 %2.0 #16 $0 
+movn <Xd>, #<imm>		s %8.25 %2.0 #16 $0 
+movz <Wd>, #<imm>, LSL #<shift>		s %8.a5 %2.0 #16 $0 
+movz <Wd>, #<imm>		s %8.a5 %2.0 #16 $0 
+movz <Xd>, #<imm>, LSL #<shift>		s %8.a5 %2.0 #16 $0 
+movz <Xd>, #<imm>		s %8.a5 %2.0 #16 $0 
+msub <Wd>, <Wn>, <Wm>, <Wa>
+msub <Xd>, <Xn>, <Xm>, <Xa>
+mul <Wd>, <Wn>, <Wm>		s %a.d8 $2 %6.1f $1 $0 
+mul <Xd>, <Xn>, <Xm>		s %a.d8 $2 %6.1f $1 $0 
+mvn <Wd>, <Wm>, <shift> #<amount>		s %7.2a < %1.1 $1 #6 %5.1f $0 
+mvn <Wd>, <Wm>		s %7.2a < %1.1 $1 #6 %5.1f $0 
+mvn <Xd>, <Xm>, <shift> #<amount>		s %7.2a < %1.1 $1 #6 %5.1f $0 
+mvn <Xd>, <Xm>		s %7.2a < %1.1 $1 #6 %5.1f $0 
+neg <Wd>, <Wm>, <shift> #<amount>		s %7.4b < %1.0 $1 #6 %5.1f $0 
+neg <Wd>, <Wm>		s %7.4b < %1.0 $1 #6 %5.1f $0 
+neg <Xd>, <Xm>, <shift> #<amount>		s %7.4b < %1.0 $1 #6 %5.1f $0 
+neg <Xd>, <Xm>		s %7.4b < %1.0 $1 #6 %5.1f $0 
+negs <Wd>, <Wm>, <shift> #<amount>
+negs <Wd>, <Wm>
+negs <Xd>, <Xm>, <shift> #<amount>
+negs <Xd>, <Xm>
+ngc <Wd>, <Wm>		s %a.2d0 $1 %b.1f $0 
+ngc <Xd>, <Xm>		s %a.2d0 $1 %b.1f $0 
+ngcs <Wd>, <Wm>		s %a.3d0 $1 %b.1f $0 
+ngcs <Xd>, <Xm>		s %a.3d0 $1 %b.1f $0 
+nop		%20.d503201f 
+orn <Wd>, <Wn>, <Wm>, <shift> #<amount>		s %7.2a < %1.1 $2 #6 $1 $0 
+orn <Wd>, <Wn>, <Wm>		s %7.2a < %1.1 $2 #6 $1 $0 
+orn <Xd>, <Xn>, <Xm>, <shift> #<amount>		s %7.2a < %1.1 $2 #6 $1 $0 
+orn <Xd>, <Xn>, <Xm>		s %7.2a < %1.1 $2 #6 $1 $0 
+orr <WSP>, <Wn>, #<imm>		s %8.64 s #6 #6 $1 $0 
+orr <Wd>, <Wn>, #<imm>		s %8.64 s #6 #6 $1 $0 
+orr <SP>, <Xn>, #<imm>		s %8.64 s #6 #6 $1 $0 
+orr <Xd>, <Xn>, #<imm>		s %8.64 s #6 #6 $1 $0 
+orr <Wd>, <Wn>, <Wm>, <shift> #<amount>		s %8.64 s #6 #6 $1 $0 
+orr <Wd>, <Wn>, <Wm>		s %8.64 s #6 #6 $1 $0 
+orr <Xd>, <Xn>, <Xm>, <shift> #<amount>		s %8.64 s #6 #6 $1 $0 
+orr <Xd>, <Xn>, <Xm>		s %8.64 s #6 #6 $1 $0 
+pacda <Xd>, <Xn|SP>		
+pacdza <Xd>
+pacdb <Xd>, <Xn|SP>		
+pacdzb <Xd>
+pacia <Xd>, <Xn|SP>		
+paciza <Xd>
+pacib <Xd>, <Xn|SP>		
+pacizb <Xd>
+pssbb		%20.d503349f 
+rbit <Wd>, <Wn>		s %15.16b000 $1 $0 
+rbit <Xd>, <Xn>		s %15.16b000 $1 $0 
+ret <Xn>		%16.3597c0 $0 %5.0 
+ret		%16.3597c0 %5.1e %5.0 
+retaa		
+retab
+rev <Wd>, <Wn>		
+rev <Xd>, <Xn>		
+rev16 <Wd>, <Wn>
+rev16 <Xd>, <Xn>
+rev32 <Xd>, <Xn>
+rev64 <Xd>, <Xn>
+rmif <Xn>, #<shift>, #<mask>		
+ror <Wd>, <Ws>, #<shift>		s %8.27 s %1.0 $2 #6 $1 $0 
+ror <Xd>, <Xs>, #<shift>		s %8.27 s %1.0 $2 #6 $1 $0 
+ror <Wd>, <Wn>, <Wm>		s %8.27 s %1.0 $2 #6 $1 $0 
+ror <Xd>, <Xn>, <Xm>		s %8.27 s %1.0 $2 #6 $1 $0 
+rorv <Wd>, <Wn>, <Wm>		s %a.d6 $2 %6.b $1 $0 
+rorv <Xd>, <Xn>, <Xm>		s %a.d6 $2 %6.b $1 $0 
+sb		%20.d50330ff 
+sbc <Wd>, <Wn>, <Wm>		s %a.2d0 $2 %6.0 $1 $0 
+sbc <Xd>, <Xn>, <Xm>		s %a.2d0 $2 %6.0 $1 $0 
+sbcs <Wd>, <Wn>, <Wm>		s %a.3d0 $2 %6.0 $1 $0 
+sbcs <Xd>, <Xn>, <Xm>		s %a.3d0 $2 %6.0 $1 $0 
+sbfiz <Wd>, <Wn>, #<lsb>, #<width>		s %8.26 s #6 #6 $1 $0 
+sbfiz <Xd>, <Xn>, #<lsb>, #<width>		s %8.26 s #6 #6 $1 $0 
+sbfm <Wd>, <Wn>, #<immr>, #<imms>		s %8.26 s #6 #6 $1 $0 
+sbfm <Xd>, <Xn>, #<immr>, #<imms>		s %8.26 s #6 #6 $1 $0 
+sbfx <Wd>, <Wn>, #<lsb>, #<width>		s %8.26 s #6 #6 $1 $0 
+sbfx <Xd>, <Xn>, #<lsb>, #<width>		s %8.26 s #6 #6 $1 $0 
+sdiv <Wd>, <Wn>, <Wm>		s %a.d6 $2 %6.3 $1 $0 
+sdiv <Xd>, <Xn>, <Xm>		s %a.d6 $2 %6.3 $1 $0 
+setf8 <Wn>		
+setf16 <Wn>
+sev		%20.d503209f 
+sevl		%20.d50320bf 
+smaddl <Xd>, <Wn>, <Wm>, <Xa>
+smc #<imm>		%b.6a0 #16 %5.3 
+smnegl <Xd>, <Wn>, <Wm>		%b.4d9 $2 %6.3f $1 $0 
+smsubl <Xd>, <Wn>, <Wm>, <Xa>
+smulh <Xd>, <Xn>, <Xm>		%b.4da $2 %6.1f $1 $0 
+smull <Xd>, <Wn>, <Wm>		%b.4d9 $2 %6.1f $1 $0 
+ssbb		%20.d503309f 
+st2g <Xt|SP>, [<Xn|SP>], #<simm>
+st2g <Xt|SP>, [<Xn|SP>, #<simm>]
+st64b <Xt>, [<Xn|SP>,#0]
+st64b <Xt>, [<Xn|SP>]
+st64bv <Xs>, <Xt>, [<Xn|SP>]
+st64bv0 <Xs>, <Xt>, [<Xn|SP>]
+staddb <Ws>, [<Xn|SP>]
+staddlb <Ws>, [<Xn|SP>]
+staddh <Ws>, [<Xn|SP>]
+staddlh <Ws>, [<Xn|SP>]
+stadd <Ws>, [<Xn|SP>]
+staddl <Ws>, [<Xn|SP>]
+stadd <Xs>, [<Xn|SP>]
+staddl <Xs>, [<Xn|SP>]
+stclrb <Ws>, [<Xn|SP>]
+stclrlb <Ws>, [<Xn|SP>]
+stclrh <Ws>, [<Xn|SP>]
+stclrlh <Ws>, [<Xn|SP>]
+stclr <Ws>, [<Xn|SP>]
+stclrl <Ws>, [<Xn|SP>]
+stclr <Xs>, [<Xn|SP>]
+stclrl <Xs>, [<Xn|SP>]
+steorb <Ws>, [<Xn|SP>]
+steorlb <Ws>, [<Xn|SP>]
+steorh <Ws>, [<Xn|SP>]
+steorlh <Ws>, [<Xn|SP>]
+steor <Ws>, [<Xn|SP>]
+steorl <Ws>, [<Xn|SP>]
+steor <Xs>, [<Xn|SP>]
+stg <Xt|SP>, <Xn|SP>, #<simm>
+stgm <Xt>, [<Xn|SP>]
+steorl <Xs>, [<Xn|SP>]
+stllrb <Wt>, [<SP>,#0]		%16.227df $1 $0 
+stllrb <Wt>, [<Xn>,#0]		%16.227df $1 $0 
+stllrb <Wt>, [<SP>]		%16.227df $1 $0 
+stllrb <Wt>, [<Xn>]		%16.227df $1 $0 
+stllrh <Wt>, [<SP>,#0]		%16.1227df $1 $0 
+stllrh <Wt>, [<Xn>,#0]		%16.1227df $1 $0 
+stllrh <Wt>, [<SP>]		%16.1227df $1 $0 
+stllrh <Wt>, [<Xn>]		%16.1227df $1 $0 
+stllr <Wt>, [<SP>,#0]		%14.227df $1 $0 
+stllr <Wt>, [<Xn>,#0]		%14.227df $1 $0 
+stllr <Wt>, [<SP>]		%14.227df $1 $0 
+stllr <Wt>, [<Xn>]		%14.227df $1 $0 
+stllr <Xt>, [<SP>,#0]		%14.227df $1 $0 
+stllr <Xt>, [<Xn>,#0]		%14.227df $1 $0 
+stllr <Xt>, [<SP>]		%14.227df $1 $0 
+stllr <Xt>, [<Xn>]		%14.227df $1 $0 
+stlr <Wt>, [<SP>,#0]		%14.227ff $1 $0 
+stlr <Wt>, [<Xn>,#0]		%14.227ff $1 $0 
+stlr <Wt>, [<SP>]		%14.227ff $1 $0 
+stlr <Wt>, [<Xn>]		%14.227ff $1 $0 
+stlr <Xt>, [<SP>,#0]		%14.227ff $1 $0 
+stlr <Xt>, [<Xn>,#0]		%14.227ff $1 $0 
+stlr <Xt>, [<SP>]		%14.227ff $1 $0 
+stlr <Xt>, [<Xn>]		%14.227ff $1 $0 
+stlur <Wt>, [<SP>, #<simm>]		%9.c8 #9 %2.0 $1 $0 
+stlur <Wt>, [<Xn>, #<simm>]		%9.c8 #9 %2.0 $1 $0 
+stlur <Wt>, [<SP>]		%9.c8 #9 %2.0 $1 $0 
+stlur <Wt>, [<Xn>]		%9.c8 #9 %2.0 $1 $0 
+stlur <Xt>, [<SP>, #<simm>]		%9.c8 #9 %2.0 $1 $0 
+stlur <Xt>, [<Xn>, #<simm>]		%9.c8 #9 %2.0 $1 $0 
+stlur <Xt>, [<SP>]		%9.c8 #9 %2.0 $1 $0 
+stlur <Xt>, [<Xn>]		%9.c8 #9 %2.0 $1 $0 
+stlxp <Ws>, <Wt1>, <Wt2>, [<Xn|SP>,#0]
+stlxp <Ws>, <Wt1>, <Wt2>, [<Xn|SP>]
+stlxp <Ws>, <Xt1>, <Xt2>, [<Xn|SP>,#0]
+stlxp <Ws>, <Xt1>, <Xt2>, [<Xn|SP>]
+stlxr <Ws>, <Wt>, [<Xn|SP>,#0]
+stlxr <Ws>, <Wt>, [<Xn|SP>]
+stlxr <Ws>, <Xt>, [<Xn|SP>,#0]
+stlxr <Ws>, <Xt>, [<Xn|SP>]
+stnp <Wt1>, <Wt2>, [<Xn|SP>, #<imm>]
+stnp <Wt1>, <Wt2>, [<Xn|SP>]
+stnp <Xt1>, <Xt2>, [<Xn|SP>, #<imm>]
+stnp <Xt1>, <Xt2>, [<Xn|SP>]
+stp <Wt1>, <Wt2>, [<SP>], #<imm>		s %9.a2 #7 $1 $2 $0
+stp <Wt1>, <Wt2>, [<Xn>], #<imm>		s %9.a2 #7 $1 $2 $0
+stp <Xt1>, <Xt2>, [<SP>], #<imm>		s %9.a2 #7 $1 $2 $0
+stp <Xt1>, <Xt2>, [<Xn>], #<imm>		s %9.a2 #7 $1 $2 $0
+stp <Wt1>, <Wt2>, [<SP>, #<imm>]!		s %9.a6 #7 $1 $2 $0
+stp <Wt1>, <Wt2>, [<Xn>, #<imm>]!		s %9.a6 #7 $1 $2 $0
+stp <Xt1>, <Xt2>, [<SP>, #<imm>]!		s %9.a6 #7 $1 $2 $0
+stp <Xt1>, <Xt2>, [<Xn>, #<imm>]!		s %9.a6 #7 $1 $2 $0
+stp <Wt1>, <Wt2>, [<SP>, #<imm>]
+stp <Wt1>, <Wt2>, [<Xn>, #<imm>]
+stp <Wt1>, <Wt2>, [<SP>]
+stp <Wt1>, <Wt2>, [<Xn>]
+stp <Xt1>, <Xt2>, [<SP>, #<imm>]
+stp <Xt1>, <Xt2>, [<Xn>, #<imm>]
+stp <Xt1>, <Xt2>, [<SP>]
+stp <Xt1>, <Xt2>, [<Xn>]
+str <Wt>, [<SP>], #<simm>		%2.2 %9.1c0 #9 %2.1 $1 $0
+str <Wt>, [<Xn>], #<simm>		%2.2 %9.1c0 #9 %2.1 $1 $0
+str <Xt>, [<SP>], #<simm>		%2.3 %9.1c0 #9 %2.1 $1 $0 
+str <Xt>, [<Xn>], #<simm>		%2.3 %9.1c0 #9 %2.1 $1 $0 
+str <Wt>, [<SP>, #<simm>]!		%2.2 %9.1c0 #9 %2.3 $1 $0 
+str <Wt>, [<Xn>, #<simm>]!		%2.2 %9.1c0 #9 %2.3 $1 $0 
+str <Xt>, [<SP>, #<simm>]!		%2.3 %9.1c0 #9 %2.3 $1 $0 
+str <Xt>, [<Xn>, #<simm>]!		%2.3 %9.1c0 #9 %2.3 $1 $0 
+str <Wt>, [<SP>, #<pimm>]		%2.2 %8.e4 #12 $1 $0 
+str <Wt>, [<Xn>, #<pimm>]		%2.2 %8.e4 #12 $1 $0 
+str <Wt>, [<SP>]		%2.2 %8.e4 #12 $1 $0
+str <Wt>, [<Xn>]		%2.2 %8.e4 #12 $1 $0
+str <Xt>, [<SP>, #<pimm>]		%1.1 s %8.e4 #12 $1 $0
+str <Xt>, [<Xn>, #<pimm>]		%1.1 s %8.e4 #12 $1 $0
+str <Xt>, [<SP>]		%1.1 s %8.e4 #12 $1 $0
+str <Xt>, [<Xn>]		%1.1 s %8.e4 #12 $1 $0
+str <Wt>, [<SP>, (<Wm>|<Xm>), <extend> <amount>]		%1.1 s %9.1c0 #9 %2.1 $1 $0 
+str <Wt>, [<Xn>, (<Wm>|<Xm>), <extend> <amount>]		%1.1 s %9.1c0 #9 %2.1 $1 $0 
+str <Wt>, [<SP>, (<Wm>|<Xm>)]		%9.1c0 #9 %2.1 $1 $0 
+str <Wt>, [<Xn>, (<Wm>|<Xm>)]		%9.1c0 #9 %2.1 $1 $0 
+str <Xt>, [<SP>, (<Wm>|<Xm>), <extend> <amount>]		%9.1c0 #9 %2.1 $1 $0 
+str <Xt>, [<Xn>, (<Wm>|<Xm>), <extend> <amount>]		%9.1c0 #9 %2.1 $1 $0 
+str <Xt>, [<SP>, (<Wm>|<Xm>)]		%9.1c0 #9 %2.1 $1 $0 
+str <Xt>, [<Xn>, (<Wm>|<Xm>)]		%9.1c0 #9 %2.1 $1 $0 
+strb <Wt>, [<SP>, (<Wm>|<Xm>), <extend> <amount>]		%b.1c0 #9 %2.1 $1 $0 
+strb <Wt>, [<Xn>, (<Wm>|<Xm>), <extend> <amount>]		%b.1c0 #9 %2.1 $1 $0 
+strb <Wt>, [<SP>, (<Wm>|<Xm>), <extend> ]		%b.1c0 #9 %2.1 $1 $0 
+strb <Wt>, [<Xn>, (<Wm>|<Xm>), <extend> ]		%b.1c0 #9 %2.1 $1 $0 
+strb <Wt>, [<SP>, <Xm>, LSL <amount>]		%b.1c0 #9 %2.1 $1 $0 
+strb <Wt>, [<Xn>, <Xm>, LSL <amount>]		%b.1c0 #9 %2.1 $1 $0 
+strb <Wt>, [<SP>, <Xm>]		%b.1c0 #9 %2.1 $1 $0 
+strb <Wt>, [<Xn>, <Xm>]		%b.1c0 #9 %2.1 $1 $0 
+strh <Wt>, [<SP>], #<simm>		%b.3c0 #9 %2.1 $1 $0 
+strh <Wt>, [<Xn>], #<simm>		%b.3c0 #9 %2.1 $1 $0 
+strh <Wt>, [<SP>, #<simm>]!		%b.3c0 #9 %2.1 $1 $0 
+strh <Wt>, [<Xn>, #<simm>]!		%b.3c0 #9 %2.1 $1 $0 
+stsetb <Ws>, [<Xn|SP>]
+stsetlb <Ws>, [<Xn|SP>]
+stseth <Ws>, [<Xn|SP>]
+stsetlh <Ws>, [<Xn|SP>]
+stset <Ws>, [<Xn|SP>]
+stsetl <Ws>, [<Xn|SP>]
+stset <Xs>, [<Xn|SP>]
+stsetl <Xs>, [<Xn|SP>]
+stsmaxb <Ws>, [<Xn|SP>]
+stsmaxlb <Ws>, [<Xn|SP>]
+stsmaxh <Ws>, [<Xn|SP>]
+stsmaxlh <Ws>, [<Xn|SP>]
+stsmax <Ws>, [<Xn|SP>]
+stsmaxl <Ws>, [<Xn|SP>]
+stsmax <Xs>, [<Xn|SP>]
+stsmaxl <Xs>, [<Xn|SP>]
+stsminb <Ws>, [<Xn|SP>]
+stsminlb <Ws>, [<Xn|SP>]
+stsminh <Ws>, [<Xn|SP>]
+stsminlh <Ws>, [<Xn|SP>]
+stsmin <Ws>, [<Xn|SP>]
+stsminl <Ws>, [<Xn|SP>]
+stsmin <Xs>, [<Xn|SP>]
+stsminl <Xs>, [<Xn|SP>]
+sttr <Wt>, [<SP>, #<simm>]		%9.1c0 #9 %2.2 $1 $0 
+sttr <Wt>, [<Xn>, #<simm>]		%9.1c0 #9 %2.2 $1 $0 
+sttr <Wt>, [<SP>]		%9.1c0 #9 %2.2 $1 $0 
+sttr <Wt>, [<Xn>]		%9.1c0 #9 %2.2 $1 $0 
+sttr <Xt>, [<SP>, #<simm>]		%9.1c0 #9 %2.2 $1 $0 
+sttr <Xt>, [<Xn>, #<simm>]		%9.1c0 #9 %2.2 $1 $0 
+sttr <Xt>, [<SP>]		%9.1c0 #9 %2.2 $1 $0 
+sttr <Xt>, [<Xn>]		%9.1c0 #9 %2.2 $1 $0 
+sttrb <Wt>, [<SP>, #<simm>]		%b.1c0 #9 %2.2 $1 $0 
+sttrb <Wt>, [<Xn>, #<simm>]		%b.1c0 #9 %2.2 $1 $0 
+sttrb <Wt>, [<SP>]		%b.1c0 #9 %2.2 $1 $0 
+sttrb <Wt>, [<Xn>]		%b.1c0 #9 %2.2 $1 $0 
+sttrh <Wt>, [<SP>, #<simm>]		%b.3c0 #9 %2.2 $1 $0 
+sttrh <Wt>, [<Xn>, #<simm>]		%b.3c0 #9 %2.2 $1 $0 
+sttrh <Wt>, [<SP>]		%b.3c0 #9 %2.2 $1 $0 
+sttrh <Wt>, [<Xn>]		%b.3c0 #9 %2.2 $1 $0 
+stumaxb <Ws>, [<Xn|SP>]
+stumaxlb <Ws>, [<Xn|SP>]
+stumaxh <Ws>, [<Xn|SP>]
+stumaxlh <Ws>, [<Xn|SP>]
+stumax <Ws>, [<Xn|SP>]
+stumaxl <Ws>, [<Xn|SP>]
+stumax <Xs>, [<Xn|SP>]
+stumaxl <Xs>, [<Xn|SP>]
+stuminb <Ws>, [<Xn|SP>]
+stuminlb <Ws>, [<Xn|SP>]
+stuminh <Ws>, [<Xn|SP>]
+stuminlh <Ws>, [<Xn|SP>]
+stumin <Ws>, [<Xn|SP>]
+stuminl <Ws>, [<Xn|SP>]
+stumin <Xs>, [<Xn|SP>]
+stuminl <Xs>, [<Xn|SP>]
+stur <Wt>, [<SP>, #<simm>]		%9.1c0 #9 %2.0 $1 $0 
+stur <Wt>, [<Xn>, #<simm>]		%9.1c0 #9 %2.0 $1 $0 
+stur <Wt>, [<SP>]		%9.1c0 #9 %2.0 $1 $0 
+stur <Wt>, [<Xn>]		%9.1c0 #9 %2.0 $1 $0 
+stur <Xt>, [<SP>, #<simm>]		%9.1c0 #9 %2.0 $1 $0 
+stur <Xt>, [<Xn>, #<simm>]		%9.1c0 #9 %2.0 $1 $0 
+stur <Xt>, [<SP>]		%9.1c0 #9 %2.0 $1 $0 
+stur <Xt>, [<Xn>]		%9.1c0 #9 %2.0 $1 $0 
+sturb <Wt>, [<SP>, #<simm>]		%b.1c0 #9 %2.0 $1 $0 
+sturb <Wt>, [<Xn>, #<simm>]		%b.1c0 #9 %2.0 $1 $0 
+sturb <Wt>, [<SP>]		%b.1c0 #9 %2.0 $1 $0 
+sturb <Wt>, [<Xn>]		%b.1c0 #9 %2.0 $1 $0 
+sturh <Wt>, [<SP>, #<simm>]		%b.3c0 #9 %2.0 $1 $0 
+sturh <Wt>, [<Xn>, #<simm>]		%b.3c0 #9 %2.0 $1 $0 
+sturh <Wt>, [<SP>]		%b.3c0 #9 %2.0 $1 $0 
+sturh <Wt>, [<Xn>]		%b.3c0 #9 %2.0 $1 $0 
+stxp <Ws>, <Wt1>, <Wt2>, [<Xn|SP>,#0]
+stxp <Ws>, <Wt1>, <Wt2>, [<Xn|SP>]
+stxp <Ws>, <Xt1>, <Xt2>, [<Xn|SP>,#0]
+stxp <Ws>, <Xt1>, <Xt2>, [<Xn|SP>]
+stxr <Ws>, <Wt>, [<Xn|SP>,#0]
+stxr <Ws>, <Wt>, [<Xn|SP>]
+stxr <Ws>, <Xt>, [<Xn|SP>,#0]
+stxr <Ws>, <Xt>, [<Xn|SP>]
+stxrb <Ws>, <Wt>, [<Xn|SP>]
+stxrh <Ws>, <Wt>, [<Xn|SP>]
+stz2g <Xt|SP>, [<Xn|SP>], #simm
+stzg <Xt|SP>, [<Xn|SP>], #simm
+stzgm <Xt>, [<Xn|SP>]
+sub <WSP>, <Wn>, <Wm>, <extend> #<amount>		s %a.259 $2 > #3 $1 $0 
+sub <Wd>, <WSP>, <Wm>, <extend> #<amount>		s %a.259 $2 > #3 $1 $0 
+sub <WSP>, <WSP>, <Wm>, <extend> #<amount>		s %a.259 $2 > #3 $1 $0 
+sub <WSP>, <Wn>, <Wm>		s %a.259 $2 > #3 $1 $0 
+sub <Wd>, <WSP>, <Wm>		s %a.259 $2 > #3 $1 $0 
+sub <WSP>, <WSP>, <Wm>		s %a.259 $2 > #3 $1 $0 
+sub <SP>, <Xn>, <R><m>, <extend> #<amount>		s %a.259 $2 > #3 $1 $0 
+sub <Xd>, <SP>, <R><m>, <extend> #<amount>		s %a.259 $2 > #3 $1 $0 
+sub <SP>, <SP>, <R><m>, <extend> #<amount>		s %a.259 $2 > #3 $1 $0 
+sub <SP>, <Xn>, <R><m>		s %a.259 $2 > #3 $1 $0 
+sub <Xd>, <SP>, <R><m>		s %a.259 $2 > #3 $1 $0 
+sub <SP>, <SP>, <R><m>		s %a.259 $2 > #3 $1 $0 
+sub <WSP>, <Wn>, #<imm>, <shift>		s %a.259 $2 > #3 $1 $0 
+sub <Wd>, <WSP>, #<imm>, <shift>		s %a.259 $2 > #3 $1 $0 
+sub <WSP>, <WSP>, #<imm>, <shift>		s %a.259 $2 > #3 $1 $0 
+sub <WSP>, <Wn>, #<imm>		s %a.259 $2 > #3 $1 $0 
+sub <Wd>, <WSP>, #<imm>		s %a.259 $2 > #3 $1 $0 
+sub <WSP>, <WSP>, #<imm>		s %a.259 $2 > #3 $1 $0 
+sub <SP>, <Xn>, #<imm>, <shift>		s %a.259 $2 > #3 $1 $0 
+sub <Xd>, <SP>, #<imm>, <shift>		s %a.259 $2 > #3 $1 $0 
+sub <SP>, <SP>, #<imm>, <shift>		s %a.259 $2 > #3 $1 $0 
+sub <SP>, <Xn>, #<imm>		s %a.259 $2 > #3 $1 $0 
+sub <Xd>, <SP>, #<imm>		s %a.259 $2 > #3 $1 $0 
+sub <SP>, <SP>, #<imm>		s %a.259 $2 > #3 $1 $0 
+sub <Wd>, <Wn>, <Wm>, <shift> #<amount>		s %a.259 $2 > #3 $1 $0 
+sub <Wd>, <Wn>, <Wm>		s %a.259 $2 > #3 $1 $0 
+sub <Xd>, <Xn>, <Xm>, <shift> #<amount>		s %a.259 $2 > #3 $1 $0 
+sub <Xd>, <Xn>, <Xm>		s %a.259 $2 > #3 $1 $0 
+subs <Wd>, <WSP>, <Wm>, <extend> #<amount>		s %a.359 $2 > #3 $1 $0 
+subs <Wd>, <Wn>, <Wm>, <extend> #<amount>		s %a.359 $2 > #3 $1 $0 
+subs <Wd>, <WSP>, <Wm>		s %a.359 $2 > #3 $1 $0 
+subs <Wd>, <Wn>, <Wm>		s %a.359 $2 > #3 $1 $0 
+subs <Xd>, <SP>, <R><m>, <extend> #<amount>		s %a.359 $2 > #3 $1 $0 
+subs <Xd>, <Xn>, <R><m>, <extend> #<amount>		s %a.359 $2 > #3 $1 $0 
+subs <Xd>, <SP>, <R><m>		s %a.359 $2 > #3 $1 $0 
+subs <Xd>, <Xn>, <R><m>		s %a.359 $2 > #3 $1 $0 
+subs <Wd>, <WSP>, #<imm>, <shift>		s %a.359 $2 > #3 $1 $0 
+subs <Wd>, <Wn>, #<imm>, <shift>		s %a.359 $2 > #3 $1 $0 
+subs <Wd>, <WSP>, #<imm>		s %a.359 $2 > #3 $1 $0 
+subs <Wd>, <Wn>, #<imm>		s %a.359 $2 > #3 $1 $0 
+subs <Xd>, <SP>, #<imm>, <shift>		s %a.359 $2 > #3 $1 $0 
+subs <Xd>, <Xn>, #<imm>, <shift>		s %a.359 $2 > #3 $1 $0 
+subs <Xd>, <SP>, #<imm>		s %a.359 $2 > #3 $1 $0 
+subs <Xd>, <Xn>, #<imm>		s %a.359 $2 > #3 $1 $0 
+subs <Wd>, <Wn>, <Wm>, <shift> #<amount>		s %a.359 $2 > #3 $1 $0 
+subs <Wd>, <Wn>, <Wm>		s %a.359 $2 > #3 $1 $0 
+subs <Xd>, <Xn>, <Xm>, <shift> #<amount>		s %a.359 $2 > #3 $1 $0 
+subs <Xd>, <Xn>, <Xm>		s %a.359 $2 > #3 $1 $0 
+svc #<imm>		%b.6a0 #16 %5.1 
+swpab <Ws>, <Wt>, [<Xn|SP>]
+swpalb <Ws>, <Wt>, [<Xn|SP>]
+swpb <Ws>, <Wt>, [<Xn|SP>]		
+swplb <Ws>, <Wt>, [<Xn|SP>]
+swpah <Ws>, <Wt>, [<Xn|SP>]
+swpalh <Ws>, <Wt>, [<Xn|SP>]
+swph <Ws>, <Wt>, [<Xn|SP>]		
+swplh <Ws>, <Wt>, [<Xn|SP>]
+swp <Ws>, <Wt>, [<Xn|SP>]		
+swpa <Ws>, <Wt>, [<Xn|SP>]
+swpal <Ws>, <Wt>, [<Xn|SP>]
+swpl <Ws>, <Wt>, [<Xn|SP>]
+swp <Xs>, <Xt>, [<Xn|SP>]		
+swpa <Xs>, <Xt>, [<Xn|SP>]
+swpal <Xs>, <Xt>, [<Xn|SP>]
+swpl <Xs>, <Xt>, [<Xn|SP>]
+sxtb <Wd>, <Wn>		s %8.26 s %c.7 $1 $0 
+sxtb <Xd>, <Wn>		s %8.26 s %c.7 $1 $0 
+sxth <Wd>, <Wn>		s %8.26 s %c.f $1 $0 
+sxth <Xd>, <Wn>		s %8.26 s %c.f $1 $0 
+sxtw <Xd>, <Wn>		%16.24d01f $1 $0 
+tbnz <Wt>, #<imm>, <label> s %7.37 #5 #14 $0
+tbnz <Wt>, #<imm>, #<imm> s %7.37 #5 #14 $0
+tbnz <Xt>, #<imm>, <label> s %7.37 #5 #14 $0
+tbnz <Xt>, #<imm>, #<imm> s %7.37 #5 #14 $0
+tst <Wn>, #<imm>		s %8.e4 s #6 #6 $0 %5.1f 
+tst <Xn>, #<imm>		s %8.e4 s #6 #6 $0 %5.1f 
+tst <Wn>, <Wm>, <shift> #<amount>		s %8.e4 s #6 #6 $0 %5.1f 
+tst <Wn>, <Wm>		s %8.e4 s #6 #6 $0 %5.1f 
+tst <Xn>, <Xm>, <shift> #<amount>		s %8.e4 s #6 #6 $0 %5.1f 
+tst <Xn>, <Xm>		s %8.e4 s #6 #6 $0 %5.1f 
+ubfiz <Wd>, <Wn>, #<lsb>, #<width>		s %8.a6 s #6 #6 $1 $0 
+ubfiz <Xd>, <Xn>, #<lsb>, #<width>		s %8.a6 s #6 #6 $1 $0 
+ubfm <Wd>, <Wn>, #<immr>, #<imms>		s %8.a6 s #6 #6 $1 $0 
+ubfm <Xd>, <Xn>, #<immr>, #<imms>		s %8.a6 s #6 #6 $1 $0 
+ubfx <Wd>, <Wn>, #<lsb>, #<width>		s %8.a6 s #6 #6 $1 $0 
+ubfx <Xd>, <Xn>, #<lsb>, #<width>		s %8.a6 s #6 #6 $1 $0 
+udf #<imm>		%10.0 #16 
+udiv <Wd>, <Wn>, <Wm>		s %a.d6 $2 %6.2 $1 $0 
+udiv <Xd>, <Xn>, <Xm>		s %a.d6 $2 %6.2 $1 $0 
+umaddl <Xd>, <Wn>, <Wm>, <Xa>
+umnegl <Xd>, <Wn>, <Wn>		%b.4dd $2 %6.3f $1 $0 
+umsubl <Xd>, <Wn>, <Wm>, <Xa>
+umulh <Xd>, <Xn>, <Xm>		%b.4de $2 %6.1f $1 $0 
+umull <Xd>, <Wn>, <Wm>		%b.4dd $2 %6.1f $1 $0 
+uxtb <Wd>, <Wn>		%16.14c007 $1 $0 
+uxth <Wd>, <Wn>		%16.14c00f $1 $0 
+wfe		%20.d503205f 
+wfet <Xt>		%1b.6a81880 $0 
+wfi		%20.d503207f 
+wfit <Xt>		%1b.6a81881 $0 
+xaflag		%20.d500403f 
+xpacd <Xd>		
+xpaci <Xd>
+yield		%20.d503203f 
